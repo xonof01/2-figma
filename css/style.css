@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+* ::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4d04e;
+  font-family: "Inter", sans-serif;
+}
+.user-card {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  border-radius: 24px;
+  /* background-color:#F4D04E; */
+}
+.user-card__image {
+  border-radius: 10px;
+  align-items: center;
+}
+.user-card__title {
+  padding: 4px;
+  background-color: #f4d04e;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: 800px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111111;
+  margin-right: 254px;
+  margin-left: 12px;
+}
+
+.user-card__location {
+  font-family: "Figrtee", sans-serif;
+
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111111;
+}
+.user-card__title1 {
+  font-family: "Figrtee" sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #111111;
+  &:active {
+    color: #f4d04e;
+  }
+}
+.user-card__location1 {
+  font-family: "Figrtee", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f7f7f;
+}
+.user-card__btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-card__image1 {
+  border-radius: 50%;
+}
+.user-card__title3 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111111;
+  gap: 12px;
+}
+@media (max-width: 375px) {
+  .user-card {
+    padding: 24px;
+  }
+}
